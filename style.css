@@ -1,0 +1,302 @@
+        /* Reset some default styles */
+        body {
+            margin: 0;
+            padding: 0;
+              font-family: "Baloo Bhaijaan 2", sans-serif;
+
+
+        }
+
+        /* Header styles */
+        .header {
+            background-color: #fff;
+            color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+h1{
+    color: #831a2b;
+}
+        .header h2 {
+            margin: 0;
+
+
+}
+
+        /* Navbar styles */
+        .navbar {
+background-color: #f2f2f2; 
+            display: flex;
+            justify-content: center; /* Center the links horizontally */
+            overflow: hidden;
+        }
+
+        .navbar a {
+            color: #831a2b;
+            text-align: center;
+            padding: 14px 40px;
+            text-decoration: none;
+            font-weight: 700;
+            transition: .4s;
+            border-radius: 10px;
+        }
+
+        .navbar a:hover {
+            background-color: #efe0e2;
+        }
+        .main{
+    background-image: url(home.svg);
+            
+    background-size: cover;
+    background-position: bottom;
+    margin-bottom: 0px;
+    padding: 45px 0 170px 0;
+        }
+        .imag{
+            background-color: #fff;
+    border-radius: 50%;       
+        }
+        .text{
+
+
+}
+        .skill{
+            color: #831a2b;
+        }
+        
+        .text h1{
+                padding-bottom: 22px;
+        }
+
+
+        
+        .box{
+            margin-top: 30px;
+        }
+        .skill{
+            padding-bottom: 30px;
+        }
+        .set{
+    color: #831a2b;
+    font-weight: ;
+    padding: 1px;
+    border-radius: 13px;
+    width: 291px;
+            font-weight: bold;
+    margin: 0 auto;
+
+        }
+.line {
+    height: 3px;
+    background-color: #831a2b;
+    border-radius: 11px;
+    width: 100px;
+    margin: 0px auto;
+    transition: .2s;
+}
+.card{
+    box-shadow: 0px 0px 6px 0px #CCC;
+}
+
+.skills {
+    background-color: #fff;
+}
+
+.skills:hover .line {
+    width: 125px;
+}
+
+.skills .line:hover {
+    width: 125px;
+}
+          .skill-icons .skill {
+            margin: 20px;
+            text-align: center;
+            transition: transform 0.2s ease-in-out;
+            border: 2px solid #008080;
+            padding: 10px;
+              box-shadow: 0px 3px 20px 0px #dcdcdc;
+            border-radius: 10px;
+              padding-top: 20px;
+              cursor: pointer;
+        }
+
+        .skill-icons .icon {
+            font-size: 35px;
+            color: #008080; /* Change the color as needed */
+            margin-bottom: 10px;
+        }
+
+        .con{
+            margin-top: 30px;
+    background-color: #F9D689;
+    border: none;
+    padding: 8px 40px;
+    cursor: pointer;
+    color: #333;
+    font-size: 1em;
+            font-weight: bolder;
+            transition: .2s;
+        }
+        .con:hover{
+color :#831a2b;
+            padding:8px 44px;
+
+        }
+        .skill-icons .label {
+            color: #008080;
+            font-weight: bolder;
+            margin-bottom:20px;
+            font-size: 15px;
+        }
+        
+
+        .side{
+            padding-bottom: 40px;
+        }
+        .side h5{
+background: rgb(7,134,134);
+background: linear-gradient(90deg, rgba(7,134,134,1) 41%, rgba(0,128,128,1) 100%);       
+            color: #FFF;
+    padding: 10px;
+    border-radius: 10px;
+            font-weight: bold;
+        }
+        section{
+            background-image: url(amari-james-NVDNGQw2Wwg-unsplash.jpg);
+            background-size: cover; 
+            background-position: center;
+            overflow: hidden;
+            min-height: 30vh;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.2);
+        }
+        .qoute{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: #831a2b;
+        }
+        
+        .projects-section {
+            background-color: #f5f5f5;
+            padding: 60px 0;
+            text-align: center;
+        }
+
+.projects-section:hover .line {
+    width: 110px;
+}
+
+.projects-section .line:hover {
+    width: 110px;
+}
+        
+        .projects-heading {
+            color: #831a2b;
+            font-weight: bold;
+        }
+
+        .project-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card img {
+            max-width: 100%;
+            height: auto;
+             opacity: 0.8;
+            transition: .2s;
+        }
+        .project-card img:hover{
+            opacity: 1;
+        }
+
+        .project-title {
+            font-size: 20px;
+            margin-top: 10px;
+        }
+
+        .project-description {
+            margin-top: 10px;
+        }
+
+        .project-link {
+            margin-top: 15px;
+        }
+        
+        .carousel-control-next-icon {
+    background-color: black;
+    border-radius: 9px;
+}
+                .carousel-control-prev-icon {
+    background-color: black;
+    border-radius: 9px;
+}
+        
+        /* Contact Section Styles */
+.contact-section {
+    background-color: #fff;
+    padding: 60px 0;
+    text-align: center;
+                box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.2);
+
+}
+
+.contact-heading {
+    color: #008080;
+    font-weight: bold;
+}
+
+.line {
+    height: 3px;
+    background-color:#831a2b ;
+    width: 60px;
+    margin: 5px auto;
+}
+
+.contact-info p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 800;
+}
+
+/* Social Icons Styles */
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icon {
+    display: inline-block;
+    margin: 0 10px;
+        color: #159494;
+    font-size: 31px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+    color: #008080
+}
+        
+        .footer{
+            text-align: center;
+            padding: 20px;
+
+
+        }
+        
+        .footer h5{
+                         margin-top: 0;
+     margin-bottom: 0;
+        }
+    
+
